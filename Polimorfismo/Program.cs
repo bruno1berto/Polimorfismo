@@ -41,6 +41,7 @@ namespace Polimorfismo
             Console.WriteLine("PAYMENTS: ");
             foreach(Employee x in employees)
             {
+                //Console.WriteLine(x);
                 Console.WriteLine(x.Name + " - $ " + x.Payment().ToString("F2"),CultureInfo.InvariantCulture);
             }
 

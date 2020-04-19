@@ -32,7 +32,7 @@ namespace Polimorfismo.Entities
             sb.Append(", Value per hour: $ " + ValuePerHour);
             sb.Append(", Payment: $ " + Payment());
             sb.Append(", Type Contract: Employee");
-            return base.ToString();
+            return sb.ToString();
        }
     }
 }
